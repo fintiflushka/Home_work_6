@@ -12,10 +12,18 @@ bool isAvailable(); // есть ли единица хранения в нали
 int GetinvNumber(); //возвращает инвентарный номер
 
 void Take(); // операция «взять»
+
 void Return();// операция «вернуть»
-Построить производные классы Book и Magazin. Класс Book содержит данные-члены: author, title,
-publisher, year и методы: Author(); Title(); Publisher(); YearOfPublishing(); Show().
-Класс Magazin включает данные-члены: volume; number; year; title и методы: Volume(); Title();
-Number(); Year(); Show().
+
+Построить производные классы Book и Magazin. 
+Класс Book содержит данные-члены: 
+author; title; publisher; year 
+и методы: 
+Author(); Title(); Publisher(); YearOfPublishing(); Show().
+Класс Magazin включает данные-члены: 
+volume; number; year; title 
+и методы: 
+Volume(); Title(); Number(); Year(); Show().
+
 Создать массив указателей на объекты базового класса и заполнить этот массив объектами производ-
 ных классов. Вызвать метод Show() базового класса и просмотреть массив объектов.
